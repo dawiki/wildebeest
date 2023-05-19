@@ -6,10 +6,6 @@
 version: 2
 updates:
   - package-ecosystem: "yarn" # See documentation for possible values
-    directory: "/" # Location of package manifests
-    schedule:
-      interval: "weekly"
-  - package-ecosystem: "yarn" # See documentation for possible values
     directory: "/frontend" # Location of package manifests
     schedule:
       interval: "weekly"
